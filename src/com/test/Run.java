@@ -23,7 +23,7 @@ public class Run{
 		bw.write("**********************************************\n");
 		Date date = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.S");
-		bw.write("Built on Hooked time: " + sdf.format(date) + "\n"); 		
+		bw.write("Built on Hooked: " + sdf.format(date) + "\n"); 		
 
 		bw.close();
 		writer.close();
